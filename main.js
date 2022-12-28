@@ -6,7 +6,8 @@ console.log(`I watched ${myWatchedSeriesLength} series : ${myWatchedSeriesSenten
 myWatchedSeries[myWatchedSeries.indexOf("the big bang theory")] = "friends";
 myWatchedSeries.push("attak of titans");
 myWatchedSeries.unshift("tony montana");
-delete myWatchedSeries[1]
+//delete myWatchedSeries[1]
+myWatchedSeries.slice(1,1);
 console.log(myWatchedSeries[2].slice(0,3));
 //myWatchedSeries[2] = myWatchedSeries[2].slice(0,3);
 console.log(`${myWatchedSeries.toString()}`);
