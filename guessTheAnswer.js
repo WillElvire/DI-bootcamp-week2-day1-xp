@@ -15,3 +15,7 @@ console.log(a+b) //second expression
 console.log(`Prediction: It will output ${a+b}, because ${a} and ${b} are numbers`);
 // Actual:
 console.log(`Actual : ${a+b}`); 
+
+console.log(3 + 4 + '5');
+// Prediction : The result should be an error
+// Actual  :  Error
